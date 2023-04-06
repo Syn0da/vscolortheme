@@ -1,4 +1,22 @@
 {
+  "workbench.colorCustomizations": {
+    "breadcrumb.background": "#1E1E1E",
+    "panel.border": "#1E1E1E",
+    "statusBar.noFolderBackground": "#1E1E1E",
+    "list.inactiveSelectionBackground": "#1E1E1E",
+
+    "tab.inactiveBackground": "#222222",
+    "sideBar.background": "#222222",
+
+    "sideBarSectionHeader.background": "#2f2f2f",
+    "activityBar.background": "#2f2f2f",
+    "titleBar.activeBackground": "#2f2f2f",
+    "editorGroupHeader.tabsBackground": "#2f2f2f",
+
+    "scrollbar.shadow": "#0000",
+    "editorInlayHint.background": "#0000"
+  },
+
   "editor.tokenColorCustomizations": {
     "[Visual Studio 2019 Dark]": {
       "textMateRules": [
