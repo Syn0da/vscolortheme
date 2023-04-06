@@ -47,5 +47,54 @@
       "comments": "#5b5b5b",
       "numbers": "#ffffff"
     }
+  },
+  "editor.semanticTokenColorCustomizations": {
+    "[Visual Studio 2019 Dark]": {
+      "enabled": true
+    },
+    "rules": {
+      "module": {
+        "foreground": "#ffffff",
+        "fontStyle": "bold"
+      },
+      "parameter": {
+        "foreground": "#70ecfc",
+        "fontStyle": "italic"
+      },
+      "variable": {
+        "foreground": "#ffffff"
+      },
+      "class": {
+        "foreground": "#80c75f",
+        "fontStyle": "italic bold"
+      },
+      "clsParameter": {
+        "foreground": "#fe7e3e",
+        "fontStyle": "italic"
+      },
+      "magicFunction": {
+        "foreground": "#fe7e3e"
+      },
+      "selfParameter": {
+        "foreground": "#70ecfc",
+        "fontStyle": "italic"
+      },
+      "method": {
+        "foreground": "#fbdb71",
+        "fontStyle": "italic"
+      },
+      "property": {
+        "foreground": "#fbdb71"
+      },
+      "builtinConstant": {
+        "fontStyle": "italic"
+      },
+      "function": {
+        "foreground": "#70ecfc"
+      },
+      "*.decorator": "#80c75f",
+      "decorator": "#fe7e3e",
+      "*.readonly": "#569CD6"
+    }
   }
 }
