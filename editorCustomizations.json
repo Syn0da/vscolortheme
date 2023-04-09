@@ -1,6 +1,5 @@
 {
   "workbench.colorCustomizations": {
-    "breadcrumb.background": "#1E1E1E",
     "panel.border": "#1E1E1E",
     "statusBar.noFolderBackground": "#1E1E1E",
     "list.inactiveSelectionBackground": "#1E1E1E",
@@ -11,108 +10,62 @@
     "sideBarSectionHeader.background": "#2f2f2f",
     "activityBar.background": "#2f2f2f",
     "titleBar.activeBackground": "#2f2f2f",
-    "editorGroupHeader.tabsBackground": "#2f2f2f",
+    "editorGroupHeader.tabsBackground": "#222222",
 
-    "scrollbar.shadow": "#0000",
     "editorInlayHint.background": "#0000"
   },
-
   "editor.tokenColorCustomizations": {
-    "[Visual Studio 2019 Dark]": {
-      "textMateRules": [
-        {
-          "scope": "storage.type",
-          "settings": {
-            "foreground": "#569CD6",
-            "fontStyle": "italic"
-          }
-        },
-        {
-          "scope": [
-            "keyword.operator.arithmetic",
-            "keyword.operator.logical.python",
-            "punctuation.separator",
-            "punctuation.definition.string.begin",
-            "punctuation.definition.string.end",
-            "punctuation.definition.comment",
-            "punctuation.definition.decorator",
-            "punctuation.section.function.begin"
-          ],
-          "settings": {
-            "foreground": "#fe7e3e"
-          }
-        },
-        {
-          "scope": "keyword.operator.assignment",
-          "settings": {
-            "foreground": "#569CD6"
-          }
-        },
-        {
-          "scope": "punctuation.section.class.begin",
-          "settings": {
-            "foreground": "#FFDE73"
-          }
-        },
-        {
-          "scope": ["keyword.control", "keyword.operator.comparison.python"],
-          "settings": {
-            "foreground": "#ff447f"
-          }
+    "comments": "#4f606e",
+    "types": "#b3ff5c",
+    "functions": "#b3ff5c",
+    "keywords": "#ff9d5c",
+    "numbers": "#b3ff5c",
+    "strings": "#FFffff",
+    "variables": "#FFffff",
+    "textMateRules": [
+      {
+        "scope": [
+          "punctuation.definition",
+          "keyword.operator",
+          "punctuation.separator",
+          "keyword.operator.logical.python"
+        ],
+        "settings": {
+          "foreground": "#ffb85c"
         }
-      ],
-      "strings": "#ffffff",
-      "comments": "#5b5b5b",
-      "numbers": "#ffffff"
-    }
+      },
+      {
+        "scope": [
+          "punctuation.definition.string",
+          "keyword.operator.assignment",
+          "variable.other.constant"
+        ],
+        "settings": {
+          "foreground": "#42ffc6"
+        }
+      }
+    ]
   },
   "editor.semanticTokenColorCustomizations": {
-    "[Visual Studio 2019 Dark]": {
-      "enabled": true
-    },
+    "enabled": true,
     "rules": {
-      "module": {
-        "foreground": "#ffffff",
-        "fontStyle": "bold"
-      },
-      "parameter": {
-        "foreground": "#70ecfc",
-        "fontStyle": "italic"
-      },
-      "variable": {
-        "foreground": "#ffffff"
-      },
+      "module": { "foreground": "#FFffff", "fontStyle": "bold" },
       "class": {
-        "foreground": "#80c75f",
         "fontStyle": "italic bold"
       },
-      "clsParameter": {
-        "foreground": "#fe7e3e",
-        "fontStyle": "italic"
-      },
-      "magicFunction": {
-        "foreground": "#fe7e3e"
-      },
-      "selfParameter": {
-        "foreground": "#70ecfc",
-        "fontStyle": "italic"
-      },
-      "method": {
-        "foreground": "#fbdb71",
-        "fontStyle": "italic"
-      },
-      "property": {
-        "foreground": "#fbdb71"
-      },
-      "builtinConstant": {
-        "fontStyle": "italic"
-      },
+      "*.readonly": "#42ffc6",
+      "builtinConstant": { "foreground": "#42ffc6" },
+
+      "property": "#ffdf28",
       "function": {
-        "foreground": "#70ecfc"
+        "fontStyle": "italic"
       },
-      "*.decorator": "#80c75f",
-      "decorator": "#fe7e3e",
-      "*.readonly": "#569CD6"
+      "selfParameter": { "foreground": "#42ffc6", "fontStyle": "italic" },
+      "parameter": { "fontStyle": "italic", "foreground": "#FFffff" },
+      "clsParameter": {
+        "foreground": "#ffdf28",
+        "fontStyle": "italic"
+      }
     }
   }
 }
